@@ -1,0 +1,76 @@
+h1 {
+    color:aquamarine;
+    margin-left:30px;
+}
+*{
+    border:none
+}
+.header{
+    background-color: blueviolet;
+    display:flex;
+    justify-content:space-between;
+}
+
+.menu{
+    margin:25px;
+}
+
+.menu a{
+    margin-left: 30px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-start;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+    background-image: url("Map.png");
+    background-size: 100%;
+    background-origin: content-box;
+    background-position: left 2px;
+    border:1px red;
+}
+
+.item{
+    font-style: italic;
+}
+
+a:link{
+    color: deepskyblue;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity: 0.5;
+}
